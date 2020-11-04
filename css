@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.box {
+    padding: 16%;
+    border: 0.1px solid black;
+    background-size: cover;
+    background-position: center;
+}
+
+button {
+    margin-top: 1rem;
+}
